@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import Stack from "@mui/material/Stack";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert, { AlertProps as MuiAlertProps } from "@mui/material/Alert";
-import "./LoginForm.css"; // Corregido
+import "./LoginForm.css"; 
 import { useNavigate } from "react-router-dom";
 
 type LoginFormValues = {
